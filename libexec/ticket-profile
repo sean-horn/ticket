@@ -242,7 +242,7 @@ class ProfileCommand < Ticket::Command
       puts [
         "Invalid date: #{d}, if you are using".red, 
         "`-t nginx`".yellow, "try".red, 
-        "`-t nginx3`".yellow
+        "`-t nginx2`".yellow
       ].join(' ')
 
       puts "Original error:".red
